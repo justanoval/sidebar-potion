@@ -9,7 +9,7 @@
   <a href="#">
     <img alt="Side" src="https://img.shields.io/badge/Side-Server--only-blue">
   </a>
-  <a href="https://modrinth.com/mod/">
+  <a href="https://modrinth.com/mod/sidebar-potion">
     <img alt="Modrinth" src="https://img.shields.io/badge/Modrinth-Project-00AF5C?logo=modrinth&logoColor=white">
   </a>
 </p>
