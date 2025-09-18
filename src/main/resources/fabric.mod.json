@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "sidebar-potion",
+	"version": "${version}",
+	"name": "Sidebar Potion",
+	"description": "A mod that adds a sidebar showing active potion effects.",
+	"authors": [
+		"Cloudburst"
+	],
+	"contact": {
+		"homepage": "https://github.com/C10udburst/Sidebar-Potion",
+		"sources": "https://github.com/C10udburst/Sidebar-Potion",
+		"issues": "https://github.com/C10udburst/Sidebar-Potion/issues"
+	},
+	"license": "Apache NON-AI",
+	"icon": "assets/sidebar-potion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.cloudburst.sidebarpotion.SidebarPotionMod"
+		]
+	},
+	"mixins": [
+		"sidebar-potion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": "~1.21.8",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"polymer-bundled": "*"
+	}
+}
