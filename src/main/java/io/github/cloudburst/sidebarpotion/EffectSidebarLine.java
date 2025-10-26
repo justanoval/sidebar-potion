@@ -10,6 +10,7 @@ import net.minecraft.scoreboard.number.BlankNumberFormat;
 import net.minecraft.scoreboard.number.FixedNumberFormat;
 import net.minecraft.scoreboard.number.NumberFormat;
 import net.minecraft.server.network.ServerPlayNetworkHandler;
+import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
 import net.minecraft.text.TextColor;
 import net.minecraft.util.Formatting;
@@ -113,7 +114,7 @@ public record EffectSidebarLine(StatusEffectInstance effect) implements SidebarL
 
             if (codepoint != null) {
                 return Text.literal(codepoint).styled(s -> s
-                        .withFont(Identifier.of(SidebarPotionMod.MOD_ID, "effect"))
+                        .withFont(new StyleSpriteSource.Font(Identifier.of(SidebarPotionMod.MOD_ID, "effect")))
                         .withColor(color)
                 );
             }
